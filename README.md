@@ -13,8 +13,7 @@ s4. create: './reducers/index.js'
 
 s5. edit: './reducers/index.js'
     
-   (1)
-    
+    (1) 
         import {combineReducers} from 'redux';
         import UserReducer from './reducer-users';
 
@@ -24,14 +23,14 @@ s5. edit: './reducers/index.js'
         export default allReducers
 
 s6. edit: './index.js'
-    (1)
-    
+
+    (1)  
         import allReducers from './reducers';
         const store = createStore(allReducers);
 
 s7. create: './components/app.js'
-    (1)
     
+    (1)    
         const App = ()=>(
             <div>
                 .....
