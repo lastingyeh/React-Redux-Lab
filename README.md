@@ -12,7 +12,8 @@ s3. edit: './reducers/reducer-users.js'
 s4. create: './reducers/index.js'
 
 s5. edit: './reducers/index.js'
-    (1)
+    
+   (1)
     
         import {combineReducers} from 'redux';
         import UserReducer from './reducer-users';
